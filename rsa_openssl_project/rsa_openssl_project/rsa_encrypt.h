@@ -1,8 +1,8 @@
-#ifndef RSA_ENCRYPT_H
+﻿#ifndef RSA_ENCRYPT_H
 #define RSA_ENCRYPT_H
 
 #include <stddef.h>
-
+#include <stdint.h>
 
 /*-
  * Copyright 2021 The OpenSSL Project Authors. All Rights Reserved.
@@ -145,7 +145,6 @@ static const unsigned char pub_key_der[] = {
     0xa8, 0x8a, 0x9f, 0xe9, 0x5a, 0x5a, 0x12, 0xaa, 0x30, 0xd5, 0x78, 0x8b,
     0x39, 0x02, 0x03, 0x01, 0x00, 0x01,
 };
-
 
 
 #endif // RSA_ENCRYPT_H

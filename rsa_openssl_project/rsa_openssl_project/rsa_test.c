@@ -1,56 +1,28 @@
 #include <stdio.h>
+#include <stdint.h>
 #include <string.h>
-#include <locale.h>
-#include <windows.h>
+#include "rsa_real.h"
 
-#include "rsaes.h"        // rsa_encrypt, rsa_decrypt 선언
-#include "rsa_encrypt.h"  // pub_key_der 사용
-
-int main(void)
+int main()
 {
-    // 한글 입출력 설정 (선택사항)
-    SetConsoleOutputCP(CP_UTF8);
-    SetConsoleCP(CP_UTF8);
-    setlocale(LC_ALL, "");
+    const char* message = "i love dokdo";
+    uint64_t encrypted[256] = { 0 };
+    char decrypted[256] = { 0 };
+    size_t len = 0;
 
-    int8_t message[256] = { 0 };
-    uint8_t encrypted[256] = { 0 };
-    int8_t decrypted[256] = { 0 };
-    size_t encrypted_len = 0, decrypted_len = 0;
+    printf("Original message: %s\n\n", message);
+    printf("[Encryption]\n");
+    rsa_encrypt_real(message, encrypted, &len);
 
-    // 입력
-    printf("Please enter: ");
-    fgets((char*)message, sizeof(message), stdin);
-    message[strcspn((char*)message, "\r\n")] = '\0';  // 개행 제거
+    for (size_t i = 0; i < len; ++i)
+        printf("[%c] -> [0x%llx]\n", message[i], encrypted[i]);
 
-    printf("[Original text] %s\n", message);
+    printf("\n[Decryption]\n");
+    rsa_decrypt_real(encrypted, len, decrypted);
 
-    // 암호화
-    if (!rsa_encrypt(message, strlen((char*)message) + 1, encrypted, &encrypted_len))
-    {
-        printf("암호화 실패!\n");
-        return 1;
-    }
+    for (size_t i = 0; i < len; ++i)
+        printf("[0x%llx] -> [%c]\n", encrypted[i], decrypted[i]);
 
-    printf("[Cryptogram text] ");
-    for (size_t i = 0; i < encrypted_len; i++)
-    {
-        printf("%02X ", encrypted[i]);
-    }
-    printf("\n");
-
-    // 복호화
-    if (!rsa_decrypt(encrypted, encrypted_len, decrypted, &decrypted_len))
-    {
-        printf("복호화 실패!\n");
-        return 1;
-    }
-
-    printf("[Decryption text] %s\n", decrypted);
-
-    // 콘솔 꺼짐 방지
-    printf("\end\n");
-    getchar();
-
+    printf("\nDecrypted message: %s\n", decrypted);
     return 0;
 }

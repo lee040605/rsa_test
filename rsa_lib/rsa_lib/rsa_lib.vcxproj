@@ -78,6 +78,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>D:\openssl_rsa_test\rsa_lib\rsa_lib;D:\openssl_rsa_test\rsa_openssl_project\rsa_openssl_project;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -95,6 +96,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>D:\openssl_rsa_test\rsa_lib\rsa_lib;D:\openssl_rsa_test\rsa_openssl_project\rsa_openssl_project;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -112,6 +114,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>D:\openssl_rsa_test\rsa_lib\rsa_lib;D:\openssl_rsa_test\rsa_openssl_project\rsa_openssl_project;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -129,6 +132,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>D:\openssl_rsa_test\rsa_lib\rsa_lib;D:\openssl_rsa_test\rsa_openssl_project\rsa_openssl_project;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -139,13 +143,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\rsa_openssl_project\rsa_openssl_project\rsaes.h" />
     <ClInclude Include="..\..\rsa_openssl_project\rsa_openssl_project\rsa_encrypt.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="modinv.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="rsa_math.h" />
+    <ClInclude Include="rsa_real.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\rsa_openssl_project\rsa_openssl_project\rsaende.c" />
+    <ClCompile Include="rsa_math.c" />
+    <ClCompile Include="rsa_real.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

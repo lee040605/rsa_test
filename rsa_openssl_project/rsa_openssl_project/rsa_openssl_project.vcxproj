@@ -76,7 +76,7 @@
       <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>.;D:\openssl\include;D:\openssl\crypto\;D:\openssl\crypto\evp;D:\openssl_rsa_test\rsa_openssl_project;D:\openssl_rsa_test\rsa_lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;D:\openssl\include;D:\openssl\crypto\;D:\openssl\crypto\evp;D:\openssl_rsa_test\rsa_openssl_project;D:\openssl_rsa_test\rsa_lib;D:\openssl_rsa_test\rsa_lib\rsa_lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -93,7 +93,7 @@
       <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>.;D:\openssl\include;D:\openssl\crypto\;D:\openssl\crypto\evp;D:\openssl_rsa_test\rsa_openssl_project;D:\openssl_rsa_test\rsa_lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;D:\openssl\include;D:\openssl\crypto\;D:\openssl\crypto\evp;D:\openssl_rsa_test\rsa_openssl_project;D:\openssl_rsa_test\rsa_lib;D:\openssl_rsa_test\rsa_lib\rsa_lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -110,7 +110,7 @@
       <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>.;D:\openssl\include;D:\openssl\crypto\;D:\openssl\crypto\evp;D:\openssl_rsa_test\rsa_openssl_project;D:\openssl_rsa_test\rsa_lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;D:\openssl\include;D:\openssl\crypto\;D:\openssl\crypto\evp;D:\openssl_rsa_test\rsa_openssl_project;D:\openssl_rsa_test\rsa_lib;D:\openssl_rsa_test\rsa_lib\rsa_lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,7 +127,7 @@
       <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>.;D:\openssl\include;D:\openssl\crypto\;D:\openssl\crypto\evp;D:\openssl_rsa_test\rsa_openssl_project;D:\openssl_rsa_test\rsa_lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;D:\openssl\include;D:\openssl\crypto\;D:\openssl\crypto\evp;D:\openssl_rsa_test\rsa_openssl_project;D:\openssl_rsa_test\rsa_lib;D:\openssl_rsa_test\rsa_lib\rsa_lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,7 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="rsaes.c" />
     <ClCompile Include="rsa_test.c" />
   </ItemGroup>
   <ItemGroup>

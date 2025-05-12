@@ -18,18 +18,27 @@
     <ClInclude Include="framework.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="modinv.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\rsa_openssl_project\rsa_openssl_project\rsa_encrypt.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\rsa_openssl_project\rsa_openssl_project\rsaes.h">
+    <ClInclude Include="rsa_math.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="pch.h">
+    <ClInclude Include="rsa_real.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\rsa_openssl_project\rsa_openssl_project\rsaende.c">
+    <ClCompile Include="rsa_math.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="rsa_real.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

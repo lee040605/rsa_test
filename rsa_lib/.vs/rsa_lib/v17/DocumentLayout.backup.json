@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "D:\\openssl_rsa_test\\rsa_lib\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A07049E6-A6E6-4DF7-BAB1-986C1A68D418}|rsa_lib\\rsa_lib.vcxproj|D:\\openssl_rsa_test\\rsa_openssl_project\\rsa_openssl_project\\rsaende.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A07049E6-A6E6-4DF7-BAB1-986C1A68D418}|rsa_lib\\rsa_lib.vcxproj|D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\rsa_real.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A07049E6-A6E6-4DF7-BAB1-986C1A68D418}|rsa_lib\\rsa_lib.vcxproj|solutionrelative:rsa_lib\\rsa_real.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A07049E6-A6E6-4DF7-BAB1-986C1A68D418}|rsa_lib\\rsa_lib.vcxproj|D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A07049E6-A6E6-4DF7-BAB1-986C1A68D418}|rsa_lib\\rsa_lib.vcxproj|solutionrelative:rsa_lib\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A07049E6-A6E6-4DF7-BAB1-986C1A68D418}|rsa_lib\\rsa_lib.vcxproj|D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\rsa_real.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A07049E6-A6E6-4DF7-BAB1-986C1A68D418}|rsa_lib\\rsa_lib.vcxproj|solutionrelative:rsa_lib\\rsa_real.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07049E6-A6E6-4DF7-BAB1-986C1A68D418}|rsa_lib\\rsa_lib.vcxproj|D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\rsa_math.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A07049E6-A6E6-4DF7-BAB1-986C1A68D418}|rsa_lib\\rsa_lib.vcxproj|solutionrelative:rsa_lib\\rsa_math.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07049E6-A6E6-4DF7-BAB1-986C1A68D418}|rsa_lib\\rsa_lib.vcxproj|D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\rsa_math.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A07049E6-A6E6-4DF7-BAB1-986C1A68D418}|rsa_lib\\rsa_lib.vcxproj|solutionrelative:rsa_lib\\rsa_math.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07049E6-A6E6-4DF7-BAB1-986C1A68D418}|rsa_lib\\rsa_lib.vcxproj|D:\\openssl_rsa_test\\rsa_openssl_project\\rsa_openssl_project\\rsa_encrypt.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07049E6-A6E6-4DF7-BAB1-986C1A68D418}|rsa_lib\\rsa_lib.vcxproj|D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\modinv.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A07049E6-A6E6-4DF7-BAB1-986C1A68D418}|rsa_lib\\rsa_lib.vcxproj|solutionrelative:rsa_lib\\modinv.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,19 +33,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "rsa_real.c",
+              "DocumentMoniker": "D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\rsa_real.c",
+              "RelativeDocumentMoniker": "rsa_lib\\rsa_real.c",
+              "ToolTip": "D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\rsa_real.c*",
+              "RelativeToolTip": "rsa_lib\\rsa_real.c*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-06T05:51:53.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "pch.h",
-              "DocumentMoniker": "D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\pch.h",
-              "RelativeDocumentMoniker": "rsa_lib\\pch.h",
-              "ToolTip": "D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\pch.h",
-              "RelativeToolTip": "rsa_lib\\pch.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Title": "rsa_real.h",
+              "DocumentMoniker": "D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\rsa_real.h",
+              "RelativeDocumentMoniker": "rsa_lib\\rsa_real.h",
+              "ToolTip": "D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\rsa_real.h",
+              "RelativeToolTip": "rsa_lib\\rsa_real.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-30T05:09:58.298Z",
+              "WhenOpened": "2025-05-06T05:51:44.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "rsa_math.c",
+              "DocumentMoniker": "D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\rsa_math.c",
+              "RelativeDocumentMoniker": "rsa_lib\\rsa_math.c",
+              "ToolTip": "D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\rsa_math.c",
+              "RelativeToolTip": "rsa_lib\\rsa_math.c",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-06T05:51:34.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "rsa_math.h",
+              "DocumentMoniker": "D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\rsa_math.h",
+              "RelativeDocumentMoniker": "rsa_lib\\rsa_math.h",
+              "ToolTip": "D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\rsa_math.h",
+              "RelativeToolTip": "rsa_lib\\rsa_math.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-06T05:51:24.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "rsa_encrypt.h",
+              "DocumentMoniker": "D:\\openssl_rsa_test\\rsa_openssl_project\\rsa_openssl_project\\rsa_encrypt.h",
+              "RelativeDocumentMoniker": "..\\rsa_openssl_project\\rsa_openssl_project\\rsa_encrypt.h",
+              "ToolTip": "D:\\openssl_rsa_test\\rsa_openssl_project\\rsa_openssl_project\\rsa_encrypt.h",
+              "RelativeToolTip": "..\\rsa_openssl_project\\rsa_openssl_project\\rsa_encrypt.h",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAgwIwAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-06T05:49:12.926Z",
               "EditorCaption": ""
             },
             {
@@ -38,15 +106,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "rsaende.c",
-              "DocumentMoniker": "D:\\openssl_rsa_test\\rsa_openssl_project\\rsa_openssl_project\\rsaende.c",
-              "RelativeDocumentMoniker": "..\\rsa_openssl_project\\rsa_openssl_project\\rsaende.c",
-              "ToolTip": "D:\\openssl_rsa_test\\rsa_openssl_project\\rsa_openssl_project\\rsaende.c",
-              "RelativeToolTip": "..\\rsa_openssl_project\\rsa_openssl_project\\rsaende.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-30T05:04:27.635Z",
+              "DocumentIndex": 5,
+              "Title": "modinv.h",
+              "DocumentMoniker": "D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\modinv.h",
+              "RelativeDocumentMoniker": "rsa_lib\\modinv.h",
+              "ToolTip": "D:\\openssl_rsa_test\\rsa_lib\\rsa_lib\\modinv.h",
+              "RelativeToolTip": "rsa_lib\\modinv.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-05T11:06:44.574Z",
               "EditorCaption": ""
             }
           ]
