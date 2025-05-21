@@ -148,10 +148,14 @@
     <ClInclude Include="modinv.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="rsa_math.h" />
+    <ClInclude Include="rsa_math_big.h" />
+    <ClInclude Include="rsa_padding.h" />
     <ClInclude Include="rsa_real.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="rsa_math.c" />
+    <ClCompile Include="rsa_math_big.c" />
+    <ClCompile Include="rsa_padding.c" />
     <ClCompile Include="rsa_real.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

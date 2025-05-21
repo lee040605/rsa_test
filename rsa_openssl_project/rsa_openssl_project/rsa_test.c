@@ -9,10 +9,16 @@ int main()
     uint8_t encrypted[256][128] = { 0 };
     char decrypted[256] = { 0 };
     size_t len = 0;
+    int padding_type = 0;
+
+    printf("Padding Type :\n");
+    printf("1: PKCS#1 v1.5\n");
+    printf("2: No Padding\n: ");
+    scanf("%d", &padding_type);
 
     printf("Original message: %s\n\n", message);
     printf("[Encryption]\n");
-    rsa_encrypt_real(message, encrypted, &len);
+    rsa_encrypt_real(message, encrypted, &len, padding_type);
 
     for (size_t i = 0; i < len; ++i)
     {
@@ -25,7 +31,7 @@ int main()
     }
 
     printf("\n[Decryption]\n");
-    rsa_decrypt_real(encrypted, len, decrypted);
+    rsa_decrypt_real(encrypted, len, decrypted, padding_type);
 
     for (size_t i = 0; i < len; ++i)
     {

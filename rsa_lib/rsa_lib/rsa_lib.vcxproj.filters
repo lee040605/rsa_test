@@ -33,12 +33,24 @@
     <ClInclude Include="rsa_real.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="rsa_padding.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="rsa_math_big.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="rsa_math.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="rsa_real.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="rsa_padding.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="rsa_math_big.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

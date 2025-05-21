@@ -1,6 +1,6 @@
 ﻿  rsa_math.c
+  rsa_math_big.c
+  rsa_padding.c
   rsa_real.c
-D:\openssl_rsa_test\rsa_lib\rsa_lib\rsa_real.c(11,51): warning C4028: 정식 매개 변수 2이(가) 선언과 다릅니다.
-D:\openssl_rsa_test\rsa_lib\rsa_lib\rsa_real.c(26,38): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
   코드를 생성하고 있습니다...
-  rsa_lib.vcxproj -> D:\openssl_rsa_test\rsa_openssl_project\x64\Debug\rsa_lib.lib
+  rsa_lib.vcxproj -> D:\openssl_rsa_test\rsa_lib\x64\Debug\rsa_lib.lib

@@ -1,2 +1,4 @@
 D:\openssl_rsa_test\rsa_lib\rsa_lib\rsa_math.c;D:\openssl_rsa_test\rsa_lib\rsa_lib\x64\Debug\rsa_math.obj
+D:\openssl_rsa_test\rsa_lib\rsa_lib\rsa_math_big.c;D:\openssl_rsa_test\rsa_lib\rsa_lib\x64\Debug\rsa_math_big.obj
+D:\openssl_rsa_test\rsa_lib\rsa_lib\rsa_padding.c;D:\openssl_rsa_test\rsa_lib\rsa_lib\x64\Debug\rsa_padding.obj
 D:\openssl_rsa_test\rsa_lib\rsa_lib\rsa_real.c;D:\openssl_rsa_test\rsa_lib\rsa_lib\x64\Debug\rsa_real.obj
