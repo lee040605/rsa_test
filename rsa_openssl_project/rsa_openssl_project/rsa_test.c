@@ -5,7 +5,7 @@
 
 int main()
 {
-    const char* message = "i love dokdo";
+    const char* message = "minseo love jongmin";
     uint8_t encrypted[256][128] = { 0 };
     char decrypted[256] = { 0 };
     size_t len = 0;
